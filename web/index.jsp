@@ -19,6 +19,9 @@
             <label for="pass_input">Password:</label>
             <input id="pass_input" type="password" name="password" value=""/>
             <br/>
+            <label for="dob_input">Date of Birth:</label>
+            <input id="dob_input" type="date" name="dob" value=""/>
+            <br/>
             <input type="submit" value="Submit">
         </form>
     </body>
