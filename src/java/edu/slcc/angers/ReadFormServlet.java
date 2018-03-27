@@ -31,7 +31,6 @@ public class ReadFormServlet extends HttpServlet {
             out.println("<body>");
             out.println("<h1>The user name was: " + request.getParameter("user") + "</h1>");
             out.println("<h1>The password was: " + request.getParameter("password") + "</h1>");
-            out.println("<h1>The DOB was: " + request.getParameter("dob") + "</h1>");
             out.println("</body>");
             out.println("</html>");
         }
